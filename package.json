@@ -1,6 +1,7 @@
 {
   "name": "angular-enterprise-template",
   "version": "0.0.0",
+  "type":"module",
   "scripts": {
     "ng": "ng",
     "start": "ng serve",
@@ -8,7 +9,8 @@
     "watch": "ng build --watch --configuration development",
     "test": "ng test",
     "lint": "ng lint",
-    "rename": "node scripts/rename-project.js"
+    "rename": "node scripts/rename-project.js",
+    "generate:feature": "node scripts/generate-feature.js"
   },
   "prettier": {
     "printWidth": 100,
